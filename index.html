@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula | Futuristic E-Commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loading-spinner">
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <span class="loading-text">NEBULA</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="logo" data-text="NEBULA">NEBULA</div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#products" class="nav-link">Shop</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">FUTURE OF FASHION</h1>
+                <p class="hero-subtitle">Explore our exclusive collection of futuristic wearables</p>
+                <button class="hero-btn">SHOP NOW</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Futuristic jacket">
+            </div>
+            <div class="hero-scroll-indicator">
+                <div class="scroll-dot"></div>
+            </div>
+        </section>
+
+        <section class="products" id="products">
+            <h2 class="section-title">OUR PRODUCTS</h2>
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="clothing">Clothing</button>
+                <button class="filter-btn" data-filter="accessories">Accessories</button>
+                <button class="filter-btn" data-filter="tech">Tech</button>
+            </div>
+            <div class="product-grid">
+                <!-- Products will be dynamically added here -->
+            </div>
+        </section>
+
+        <section class="featured">
+            <div class="featured-card">
+                <div class="featured-content">
+                    <h3>LIMITED EDITION</h3>
+                    <h2>Quantum Jacket</h2>
+                    <p>Only 50 pieces available worldwide. Get yours before it's gone.</p>
+                    <button class="featured-btn">PRE-ORDER NOW</button>
+                </div>
+                <div class="featured-image">
+                    <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Quantum Jacket">
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Our team">
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">ABOUT US</h2>
+                <p>Nebula is a forward-thinking fashion brand that merges cutting-edge technology with sustainable materials to create clothing for the future.</p>
+                <p>Founded in 2023, our mission is to push the boundaries of what fashion can be while maintaining ethical production practices.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number" data-count="250">0</div>
+                        <div class="stat-label">Products</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">Countries</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-count="10000">0</div>
+                        <div class="stat-label">Customers</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>JOIN OUR NEWSLETTER</h2>
+            <p>Subscribe to get 15% off your first order and updates on new releases.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">SUBSCRIBE</button>
+            </form>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="section-title">CONTACT US</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Future Street, Tech City, TC 10101</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>contact@nebula.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">NEBULA</div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h3>Shop</h3>
+                        <a href="#">All Products</a>
+                        <a href="#">New Arrivals</a>
+                        <a href="#">Best Sellers</a>
+                        <a href="#">Sale</a>
+                    </div>
+                    <div class="link-group">
+                        <h3>Help</h3>
+                        <a href="#">FAQ</a>
+                        <a href="#">Shipping</a>
+                        <a href="#">Returns</a>
+                        <a href="#">Size Guide</a>
+                    </div>
+                    <div class="link-group">
+                        <h3>About</h3>
+                        <a href="#">Our Story</a>
+                        <a href="#">Sustainability</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Press</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Nebula. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-bitcoin"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="cart-overlay">
+        <div class="cart-sidebar">
+            <div class="cart-header">
+                <h3>YOUR CART</h3>
+                <button class="close-cart">&times;</button>
+            </div>
+            <div class="cart-items">
+                <!-- Cart items will be added here -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="total-price">$0.00</span>
+                </div>
+                <button class="checkout-btn">CHECKOUT</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="notification">
+        <p>Item added to cart!</p>
+    </div>
+
+    <script src="./sample.js"></script>
+    
+<script>
+document.getElementById('contact-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const form = e.target;
+    const data = {
+        name: form.name.value,
+        email: form.email.value,
+        message: form.message.value
+    };
+    const response = await fetch('http://localhost:3001/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+    });
+    if (response.ok) {
+        alert('Message sent!');
+        form.reset();
+    } else {
+        alert('Error sending message.');
+    }
+});
+</script>
+</body>
+</html>
